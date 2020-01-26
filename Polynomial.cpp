@@ -25,7 +25,6 @@ class Polynomial
   
     ~Polynomial()
     {
-    	cout<<"Destructor Invoke ";
       // Behavior of destructor
     }
     
@@ -95,12 +94,12 @@ int main()
   thirdPolynomial=firstPolynomial+secondPolynomial;
   Polynomial fourthPolynomial=firstPolynomial-secondPolynomial;
   
-  cout<<"your 1st polynomial is : ";
+  cout<<"\nyour 1st polynomial is : ";
   firstPolynomial.display();
-  cout<<"your 2nd polynomial is : ";
+  cout<<"\nyour 2nd polynomial is : ";
   secondPolynomial.display();
-  cout<<"polynomial after addition : ";
+  cout<<"\npolynomial after addition : ";
   thirdPolynomial.display();
-  cout<<"polynomial after subtraction : ";
+  cout<<"\npolynomial after subtraction : ";
   fourthPolynomial.display();
 }
